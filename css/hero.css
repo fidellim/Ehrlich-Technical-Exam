@@ -1,0 +1,56 @@
+.hero {
+    position: relative;
+}
+
+.hero :is(.arrow-left, .arrow-right, .slider-bullets) {
+    position: absolute;
+    width: 25px;
+}
+
+.hero .arrow-left {
+    left: 24px;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.hero .arrow-right {
+    right: 24px;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.hero .slider-bullets {
+    left: 50%;
+    translate: -50% -24px;
+}
+
+.hero .button-four {
+    position: absolute;
+    left: 72.5%;
+    translate: -50% -40px;
+}
+
+@media screen and (min-width: 750px) {
+    
+    .hero .slider-bullets {
+        translate: -50% -36px;
+    }
+    
+    .hero .button-four {
+        position: absolute;
+        left: 72.5%;
+        translate: -50% -100px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero :is(.arrow-left, .arrow-right, .slider-bullets) {
+        width: 50px;
+    }
+    
+    .hero .button-four {
+        position: absolute;
+        left: 72.5%;
+        translate: -50% -155px;
+    }
+}
