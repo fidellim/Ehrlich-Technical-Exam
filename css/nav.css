@@ -49,7 +49,8 @@ nav {
     border-radius: 35px;
     border: 1px solid #F2F2F2;
     background: #FFF;
-    padding: 5px 6px; 
+    padding: 5px 6px;
+    cursor: pointer;
 }
 
 .currency-container .us-flag {
