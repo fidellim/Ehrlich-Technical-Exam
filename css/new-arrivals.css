@@ -1,0 +1,52 @@
+.new-arrivals {
+    position: relative;
+}
+
+.new-arrivals-content {
+    background: #000;
+    padding: 20px;
+}
+.new-arrivals-content h2 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1; /* 100% */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.new-arrivals-content p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 1230px) {
+    .new-arrivals-content {
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        translate: -50% -50%;
+        width: 550px;
+        background: transparent;
+        padding: 0px;
+    }
+    
+    .new-arrivals-content h2 {
+        color: #FFF;
+        font-size: 86px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 86px; /* 100% */
+        text-transform: uppercase;
+        margin-bottom: 21px;
+    }
+    .new-arrivals-content p {
+        font-size: 28px;
+        margin-bottom: 43px;
+    }
+}
