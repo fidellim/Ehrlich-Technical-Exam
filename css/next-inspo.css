@@ -1,0 +1,33 @@
+.next-inspo {
+    background: #F2F2F2;
+    padding: 40px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.next-inspo .paragraph {
+    margin-bottom: 31px;
+}
+
+.next-inspo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 49px;
+    margin-bottom: 41px;
+    padding: 0 15px;
+}
+
+.next-inspo-item {
+    cursor: pointer;
+}
+
+.next-inspo-item img {
+    width: 225px;
+    height: 225px;
+}
+
+.next-inspo .button-one {
+    margin: 0 auto;
+}
