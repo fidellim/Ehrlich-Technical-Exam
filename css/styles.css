@@ -113,6 +113,24 @@ p, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.button-buy {
+  display: inline-flex;
+  padding: 7px 14px;
+  align-items: flex-start;
+  gap: 15px;
+  background:#131313;
+  color: #fff;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .heading {
   color: #000;
   text-align: center;
