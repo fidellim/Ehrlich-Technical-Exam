@@ -1,0 +1,28 @@
+section:nth-of-type(1) {
+    overflow-x: auto;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    min-width: 950px;
+    padding: 10px 24px;
+    background: #F2F2F2;
+}
+
+.benefit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.benefit p {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
