@@ -44,6 +44,10 @@ header nav {
     text-decoration: none;
 }
 
+.left-nav ul a:hover {
+    text-decoration: underline;
+}
+
 .right-nav, .currency-container {
     display: flex;
     align-items: center;
