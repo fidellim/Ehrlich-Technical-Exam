@@ -116,6 +116,7 @@
 
 .second-level img {
     padding: 10px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {
