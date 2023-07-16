@@ -43,6 +43,10 @@
     text-decoration: none;
 }
 
+.footer-list ul a:hover {
+    text-decoration: underline;
+}
+
 .footer-list ul li {
     display: flex;
     padding: 10px;
