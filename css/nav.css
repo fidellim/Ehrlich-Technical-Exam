@@ -96,6 +96,10 @@ header nav {
     gap: 0.75rem;
 }
 
+#shopping-cart-modal .products a {
+    color: #000;
+}
+
 #shopping-cart-modal .cart-item {
     display: flex;
     align-items: flex-start;
