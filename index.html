@@ -30,11 +30,11 @@
                 </ul>
             </div>
             
-            <img src="/assets/navigation/Logo.svg" alt="">
+            <img class="logo" src="/assets/navigation/Logo.svg" alt="">
             
             <div class="right-nav">
                 <a href="#"><img src="/assets/navigation/bx_bx-user.svg" alt=""></a>
-                <a href="#"><img src="/assets/navigation/bx_bx-shopping-bag.svg" alt=""></a>
+                <div><img class="shopping-cart-icon" src="/assets/navigation/bx_bx-shopping-bag.svg" alt=""></div>
                 <a href="#"><img src="/assets/navigation/bx_bx-heart.svg" alt=""></a>
                 <a href="#"><img src="/assets/navigation/bx_bx-support.svg" alt=""></a>
                 <a href="#"><img src="/assets/navigation/bx_bx-search.svg" alt=""></a>
@@ -44,8 +44,18 @@
                     <img class="arrow-down" src="/assets/navigation/ant-design_down-outlined.svg" alt="">
                 </div>
             </div>
+            <div id="shopping-cart-modal">
+                <div class="close-container">
+                    <button class="btn-close">&times;</button>
+                </div>
+                <div class="products"></div>
+                <button class="btn-checkout">
+                    begin checkout
+                </button>
+            </div>
+            
         </nav>
-        
+           
         <nav class="mobile-nav">
             <div class="mobile-menu">
                 <div class="logo">
@@ -65,7 +75,7 @@
                     </ul>
                     <div class="icons">
                         <a href="#"><img src="/assets/navigation/bx_bx-user.svg" alt=""></a>
-                        <a href="#"><img src="/assets/navigation/bx_bx-shopping-bag.svg" alt=""></a>
+                        <div><img class="shopping-cart-icon" src="/assets/navigation/bx_bx-shopping-bag.svg" alt=""></div>
                         <a href="#"><img src="/assets/navigation/bx_bx-heart.svg" alt=""></a>
                         <a href="#"><img src="/assets/navigation/bx_bx-support.svg" alt=""></a>
                         <a href="#"><img src="/assets/navigation/bx_bx-search.svg" alt=""></a>
