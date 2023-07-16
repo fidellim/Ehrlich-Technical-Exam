@@ -72,9 +72,97 @@ header nav {
     margin-right: 6px;
 }
 
+.shopping-cart-icon {
+    cursor: pointer;
+}
+
+#shopping-cart-modal {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    padding: 20px;
+    display: none;
+    max-height: 350px;
+    overflow: auto;
+    background-color: #F2F2F2;
+    max-width: 500px;
+    border: 5px solid #000;
+}
+
+#shopping-cart-modal .products {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#shopping-cart-modal .cart-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#shopping-cart-modal .cart-item img {
+    width: 75px;
+}
+
+#shopping-cart-modal .cart-item button {
+    cursor: pointer;
+}
+
+#shopping-cart-modal .empty-cart {
+    padding: 0 0 10px 0;
+}
+
+#shopping-cart-modal .close-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#shopping-cart-modal .btn-close {
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#shopping-cart-modal .total-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#shopping-cart-modal .cart-item .total-details a {
+    text-decoration: underline;
+    color:#000;
+}
+
+#shopping-cart-modal .btn-checkout {
+  width: 100%;
+  padding: 10px 0;
+  gap: 15px;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media (max-width: 975px) {
-    .desktop-nav {
+    .desktop-nav :is(.logo, .left-nav, .right-nav) {
         display: none;
+    }
+    
+    #shopping-cart-modal {
+        top: 74px;
     }
 
     .mobile-nav {
