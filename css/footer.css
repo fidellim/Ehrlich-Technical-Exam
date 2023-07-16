@@ -39,6 +39,10 @@
     padding: 0;
 }
 
+.footer-list ul a {
+    text-decoration: none;
+}
+
 .footer-list ul li {
     display: flex;
     padding: 10px;
